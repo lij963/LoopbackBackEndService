@@ -1,0 +1,14 @@
+{
+  "name": "mdb",
+  "version": "1.0.0",
+  "description": "测试项目的数据库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lishuqing",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.24"
+  }
+}

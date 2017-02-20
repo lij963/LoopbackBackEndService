@@ -3,8 +3,8 @@
 1. 进入项目文件夹:
     - `cd projectPath`
 2. 初始化项目：
-    - `slc loopback`
-    - ![](img/slc_loopback.jpeg)
+    - `slc loopback`  
+     ![](img/slc_loopback.jpeg)
 3. 创建一个mongodb数据库[Quick Start](http://mongodb.github.io/node-mongodb-native/2.2/quick-start/quick-start/)：
     - 按照mongodb官方docs，先创建一个文件夹来存放数据库。
     - 在项目根目录下创建创建名为db的文件夹，然后`cd db`
@@ -19,7 +19,7 @@
     - 接下来执行  
     `mongod --dbpath=/data`  
     让数据库跑起来。看到 waiting for connections on port 27017 就说明已经跑起来了。
-4.将刚才创建的数据量配置到我们的项目中：
+4. 将刚才创建的数据量配置到我们的项目中：
     - 进入项目根目录  
     `cd projectPath`
     - 配置数据库  
@@ -35,5 +35,5 @@
     在数据库界面有个按钮可以测试数据库是否配置完成。如果success就算完成了。
 #### 至此，项目搭建基本完成。已经可以在根目录下使用  
 `node .`  
-命令直接启动服务器来测试项目了。
+命令直接启动服务器来测试项目了。####
     

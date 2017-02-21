@@ -11,12 +11,12 @@
     "ideas": {
       "type": "hasMany",
       "model": "Idea",
-      "foreignKey": ""
+      "foreignKey": "ideaID"
     },
     "inquiries": {
       "type": "hasMany",
       "model": "Inquiry",
-      "foreignKey": "id"
+      "foreignKey": "inquiryID"
     }
   },
   "acls": [],

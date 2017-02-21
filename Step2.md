@@ -18,7 +18,19 @@
 
 ![](img/relation3.jpeg)
 
-![](img/relation4.jpeg)
 
 
 #### 定义权限管理,需要用户登录才能操作
+`slc loopback:acl`
+![](img/loopbackacl.jpeg)
+
+
+## 定义外键的话 需要在model的js文件中添加方法.
+
+```
+Idea.beforeRemote('create', function(context, user, next) {
+     context.args.data.userId =context.req.accessToken.userId;
+     //context.args.data.test="test";
+     next();
+   });
+```

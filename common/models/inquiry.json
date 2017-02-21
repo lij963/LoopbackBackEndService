@@ -29,14 +29,27 @@
     "myUser": {
       "type": "belongsTo",
       "model": "MyUser",
-      "foreignKey": "id"
+      "foreignKey": "userId"
     },
     "ideas": {
       "type": "hasOne",
       "model": "Idea",
-      "foreignKey": "id"
+      "foreignKey": "ideaId"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    }
+  ],
   "methods": {}
 }

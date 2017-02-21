@@ -1,0 +1,31 @@
+{
+  "name": "Inquiry",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "created"
+    },
+    "quantity": {
+      "type": "number",
+      "required": true
+    },
+    "purity": {
+      "type": "number",
+      "required": true
+    },
+    "unitType": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

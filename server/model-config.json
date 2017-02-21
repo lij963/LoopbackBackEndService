@@ -31,5 +31,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "MyUser": {
+    "dataSource": "mdb",
+    "public": true
+  },
+  "Idea": {
+    "dataSource": "mdb",
+    "public": true
+  },
+  "Inquiry": {
+    "dataSource": "mdb",
+    "public": true
   }
 }

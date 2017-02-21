@@ -10,6 +10,15 @@
     添加属性会有提示,按照提示选择或者输入即可.
     ![](img/slc_loopbackmodel2.jpeg)
 
+#### 定义model之间的关系
+  `slc loopback:relation`
+![](img/relation1.jpeg)
+
+![](img/relation2.jpeg)
+
+![](img/relation3.jpeg)
+
+![](img/relation4.jpeg)
 
 
-
+#### 定义权限管理,需要用户登录才能操作

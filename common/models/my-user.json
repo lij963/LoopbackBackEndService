@@ -7,7 +7,18 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "ideas": {
+      "type": "hasMany",
+      "model": "Idea",
+      "foreignKey": ""
+    },
+    "inquiries": {
+      "type": "hasMany",
+      "model": "Inquiry",
+      "foreignKey": "id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
